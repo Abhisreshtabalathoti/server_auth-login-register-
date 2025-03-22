@@ -21,7 +21,7 @@ module.exports = () => {
         useUnifiedTopology: true,
     };
     try {
-        mongoose.connect("mongodb+srv://balathotiabhisreshta:abhisreshta@cluster0.mejytur.mongodb.net/", connectionParams);
+        mongoose.connect("mongodb+srv://balathotiabhisreshta:<pswd>@cluster0.mejytur.mongodb.net/", connectionParams);
         console.log("Connected to database successfully");
     } catch (error) {
         console.log(error);
